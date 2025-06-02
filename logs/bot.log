@@ -1,0 +1,544 @@
+2025-06-02 11:38:07 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 11:38:07 | INFO     | __main__:on_shutdown:45 | Бот остановлен
+2025-06-02 12:00:02 | INFO     | db_manager.manager:__init__:18 | Инициализация базы данных: /Users/cooldom/VoiceSticker/bot_database.db
+2025-06-02 12:00:03 | INFO     | image_generation_service.service:__init__:39 | Инициализация сервиса генерации изображений (MVP mode: False)
+2025-06-02 12:00:10 | INFO     | stt_service.service:__init__:29 | Инициализация STT сервиса (MVP mode: False)
+2025-06-02 12:00:10 | INFO     | __main__:main:88 | Запуск в режиме polling (разработка)
+2025-06-02 12:00:10 | INFO     | __main__:on_startup:25 | Запуск бота VoiceSticker...
+2025-06-02 12:00:10 | INFO     | __main__:on_startup:28 | Инициализация базы данных...
+2025-06-02 12:00:10 | INFO     | db_manager.manager:init_db:96 | База данных успешно инициализирована
+2025-06-02 12:00:10 | INFO     | __main__:on_startup:32 | Инициализация сервисов...
+2025-06-02 12:00:10 | INFO     | image_generation_service.service:initialize:47 | Инициализация сервиса генерации через Replicate API
+2025-06-02 12:00:10 | INFO     | stt_service.service:initialize:38 | Загружаем Whisper модель 'base'...
+2025-06-02 12:00:11 | INFO     | stt_service.service:initialize:47 | Whisper модель успешно загружена!
+2025-06-02 12:00:11 | INFO     | __main__:on_startup:36 | ✅ Бот успешно запущен!
+2025-06-02 12:00:24 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:00:44 | INFO     | image_generation_service.service:_generate_sd_sticker:210 | Финальный промпт для генерации: sticker of cat космонавт with сигаретой, default style, die-cut sticker, white background
+2025-06-02 12:00:51 | INFO     | image_generation_service.service:_generate_sd_sticker:238 | Получен URL изображения: https://replicate.delivery/xezq/jawblkF5fETfrEb3j2AZhC8wQi2n8MSN7Ze8ehe9C6CYINWmC/out-0.png
+2025-06-02 12:00:52 | INFO     | image_generation_service.service:_generate_sd_sticker:251 | Изображение успешно загружено и обработано
+2025-06-02 12:00:54 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 12:04:42 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 12:04:42 | INFO     | __main__:on_shutdown:45 | Бот остановлен
+2025-06-02 12:07:04 | INFO     | db_manager.manager:__init__:18 | Инициализация базы данных: /Users/cooldom/VoiceSticker/bot_database.db
+2025-06-02 12:07:05 | INFO     | image_generation_service.service:__init__:39 | Инициализация сервиса генерации изображений (MVP mode: False)
+2025-06-02 12:07:06 | INFO     | stt_service.service:__init__:29 | Инициализация STT сервиса (MVP mode: False)
+2025-06-02 12:07:06 | INFO     | __main__:main:88 | Запуск в режиме polling (разработка)
+2025-06-02 12:07:07 | INFO     | __main__:on_startup:25 | Запуск бота VoiceSticker...
+2025-06-02 12:07:07 | INFO     | __main__:on_startup:28 | Инициализация базы данных...
+2025-06-02 12:07:07 | INFO     | db_manager.manager:init_db:96 | База данных успешно инициализирована
+2025-06-02 12:07:07 | INFO     | __main__:on_startup:32 | Инициализация сервисов...
+2025-06-02 12:07:07 | INFO     | image_generation_service.service:initialize:47 | Инициализация сервиса генерации через Replicate API
+2025-06-02 12:07:07 | INFO     | stt_service.service:initialize:38 | Загружаем Whisper модель 'base'...
+2025-06-02 12:07:07 | INFO     | stt_service.service:initialize:47 | Whisper модель успешно загружена!
+2025-06-02 12:07:07 | INFO     | __main__:on_startup:36 | ✅ Бот успешно запущен!
+2025-06-02 12:07:18 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:07:37 | WARNING  | image_generation_service.service:create_detailed_prompt:84 | OpenAI API ключ не найден, используем простой перевод
+2025-06-02 12:07:37 | WARNING  | image_generation_service.service:translate_to_english:220 | Слово 'сосиской' не найдено в словаре переводов
+2025-06-02 12:07:37 | INFO     | image_generation_service.service:translate_to_english:224 | Перевод: Котик с сосиской -> cute cat with сосиской
+2025-06-02 12:07:37 | INFO     | image_generation_service.service:_generate_sd_sticker:243 | Финальный промпт для генерации: sticker of cute cat with сосиской, default style, die-cut sticker, white background
+2025-06-02 12:07:43 | INFO     | image_generation_service.service:_generate_sd_sticker:271 | Получен URL изображения: https://replicate.delivery/xezq/EHmetFfLxKjZMkWFheszWpFVJ8TlA1y7f4tYbaIqGfsx7NWmC/out-0.png
+2025-06-02 12:07:44 | INFO     | image_generation_service.service:_generate_sd_sticker:284 | Изображение успешно загружено и обработано
+2025-06-02 12:07:45 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 12:13:55 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 12:13:55 | INFO     | __main__:on_shutdown:45 | Бот остановлен
+2025-06-02 12:13:59 | INFO     | db_manager.manager:__init__:18 | Инициализация базы данных: /Users/cooldom/VoiceSticker/bot_database.db
+2025-06-02 12:13:59 | INFO     | image_generation_service.service:__init__:39 | Инициализация сервиса генерации изображений (MVP mode: False)
+2025-06-02 12:14:00 | INFO     | stt_service.service:__init__:29 | Инициализация STT сервиса (MVP mode: False)
+2025-06-02 12:14:01 | INFO     | __main__:main:88 | Запуск в режиме polling (разработка)
+2025-06-02 12:14:01 | INFO     | __main__:on_startup:25 | Запуск бота VoiceSticker...
+2025-06-02 12:14:01 | INFO     | __main__:on_startup:28 | Инициализация базы данных...
+2025-06-02 12:14:01 | INFO     | db_manager.manager:init_db:96 | База данных успешно инициализирована
+2025-06-02 12:14:01 | INFO     | __main__:on_startup:32 | Инициализация сервисов...
+2025-06-02 12:14:01 | INFO     | image_generation_service.service:initialize:47 | Инициализация сервиса генерации через Replicate API
+2025-06-02 12:14:01 | INFO     | stt_service.service:initialize:38 | Загружаем Whisper модель 'base'...
+2025-06-02 12:14:02 | INFO     | stt_service.service:initialize:47 | Whisper модель успешно загружена!
+2025-06-02 12:14:02 | INFO     | __main__:on_startup:36 | ✅ Бот успешно запущен!
+2025-06-02 12:14:08 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:14:23 | INFO     | image_generation_service.service:create_detailed_prompt:93 | Создаем детальный промпт через GPT для: Котик с сосиской
+2025-06-02 12:14:23 | ERROR    | image_generation_service.service:create_detailed_prompt:141 | Ошибка GPT: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-06-02 12:14:23 | ERROR    | image_generation_service.service:create_detailed_prompt:142 | Тип ошибки: APIRemovedInV1
+2025-06-02 12:14:23 | WARNING  | image_generation_service.service:translate_to_english:220 | Слово 'сосиской' не найдено в словаре переводов
+2025-06-02 12:14:23 | INFO     | image_generation_service.service:translate_to_english:224 | Перевод: Котик с сосиской -> cute cat with сосиской
+2025-06-02 12:14:23 | INFO     | image_generation_service.service:_generate_sd_sticker:243 | Финальный промпт для генерации: sticker of cute cat with сосиской, default style, die-cut sticker, white background
+2025-06-02 12:14:28 | INFO     | image_generation_service.service:_generate_sd_sticker:271 | Получен URL изображения: https://replicate.delivery/xezq/xiwH1xmpfqUcASgb6HGfNyGB0gQUzUzzgjx65p8p2cz01xyUA/out-0.png
+2025-06-02 12:14:29 | INFO     | image_generation_service.service:_generate_sd_sticker:284 | Изображение успешно загружено и обработано
+2025-06-02 12:14:30 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 12:21:00 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 12:21:00 | INFO     | __main__:on_shutdown:45 | Бот остановлен
+2025-06-02 12:21:06 | INFO     | db_manager.manager:__init__:18 | Инициализация базы данных: /Users/cooldom/VoiceSticker/bot_database.db
+2025-06-02 12:21:06 | INFO     | image_generation_service.service:__init__:39 | Инициализация сервиса генерации изображений (MVP mode: False)
+2025-06-02 12:21:07 | INFO     | stt_service.service:__init__:29 | Инициализация STT сервиса (MVP mode: False)
+2025-06-02 12:21:07 | INFO     | __main__:main:88 | Запуск в режиме polling (разработка)
+2025-06-02 12:21:07 | INFO     | __main__:on_startup:25 | Запуск бота VoiceSticker...
+2025-06-02 12:21:07 | INFO     | __main__:on_startup:28 | Инициализация базы данных...
+2025-06-02 12:21:07 | INFO     | db_manager.manager:init_db:96 | База данных успешно инициализирована
+2025-06-02 12:21:07 | INFO     | __main__:on_startup:32 | Инициализация сервисов...
+2025-06-02 12:21:07 | INFO     | image_generation_service.service:initialize:47 | Инициализация сервиса генерации через Replicate API
+2025-06-02 12:21:07 | INFO     | stt_service.service:initialize:38 | Загружаем Whisper модель 'base'...
+2025-06-02 12:21:08 | INFO     | stt_service.service:initialize:47 | Whisper модель успешно загружена!
+2025-06-02 12:21:08 | INFO     | __main__:on_startup:36 | ✅ Бот успешно запущен!
+2025-06-02 12:21:13 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:21:25 | INFO     | image_generation_service.service:create_detailed_prompt:93 | Создаем детальный промпт через GPT для: Кот с сосиской
+2025-06-02 12:21:29 | ERROR    | image_generation_service.service:create_detailed_prompt:139 | Ошибка GPT: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-06-02 12:21:29 | ERROR    | image_generation_service.service:create_detailed_prompt:140 | Тип ошибки: RateLimitError
+2025-06-02 12:21:29 | WARNING  | image_generation_service.service:translate_to_english:225 | Слово 'сосиской' не найдено в словаре переводов
+2025-06-02 12:21:29 | INFO     | image_generation_service.service:translate_to_english:229 | Перевод: Кот с сосиской -> cat with сосиской
+2025-06-02 12:21:29 | INFO     | image_generation_service.service:_generate_sd_sticker:248 | Финальный промпт для генерации: sticker of cat with сосиской, default style, die-cut sticker, white background
+2025-06-02 12:21:35 | INFO     | image_generation_service.service:_generate_sd_sticker:276 | Получен URL изображения: https://replicate.delivery/xezq/26OWDTHOetxkUSb1KPWSWdwgeGUdUoeIq6jefHnyn7ehHfYZKA/out-0.png
+2025-06-02 12:21:35 | INFO     | image_generation_service.service:_generate_sd_sticker:289 | Изображение успешно загружено и обработано
+2025-06-02 12:21:37 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 12:23:33 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 12:23:33 | INFO     | __main__:on_shutdown:45 | Бот остановлен
+2025-06-02 12:29:42 | INFO     | db_manager.manager:__init__:18 | Инициализация базы данных: /Users/cooldom/VoiceSticker/bot_database.db
+2025-06-02 12:29:42 | WARNING  | image_generation_service.service:<module>:34 | google-generativeai не установлен
+2025-06-02 12:29:42 | INFO     | image_generation_service.service:__init__:47 | Инициализация сервиса генерации изображений (MVP mode: False)
+2025-06-02 12:29:43 | INFO     | stt_service.service:__init__:29 | Инициализация STT сервиса (MVP mode: False)
+2025-06-02 12:29:43 | INFO     | __main__:main:88 | Запуск в режиме polling (разработка)
+2025-06-02 12:29:44 | INFO     | __main__:on_startup:25 | Запуск бота VoiceSticker...
+2025-06-02 12:29:44 | INFO     | __main__:on_startup:28 | Инициализация базы данных...
+2025-06-02 12:29:44 | INFO     | db_manager.manager:init_db:96 | База данных успешно инициализирована
+2025-06-02 12:29:44 | INFO     | __main__:on_startup:32 | Инициализация сервисов...
+2025-06-02 12:29:44 | INFO     | image_generation_service.service:initialize:55 | Инициализация сервиса генерации через Replicate API
+2025-06-02 12:29:44 | INFO     | stt_service.service:initialize:38 | Загружаем Whisper модель 'base'...
+2025-06-02 12:29:44 | INFO     | stt_service.service:initialize:47 | Whisper модель успешно загружена!
+2025-06-02 12:29:44 | INFO     | __main__:on_startup:36 | ✅ Бот успешно запущен!
+2025-06-02 12:29:51 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:30:04 | INFO     | image_generation_service.service:translate_to_english:94 | Перевод: Котик с сосиской -> A cat with a sausage
+2025-06-02 12:30:04 | WARNING  | image_generation_service.service:create_detailed_prompt:144 | Gemini API не доступен, используем простой промпт
+2025-06-02 12:30:04 | INFO     | image_generation_service.service:_generate_sd_sticker:216 | Финальный промпт для генерации: sticker of A cat with a sausage, default style, die-cut sticker, white background
+2025-06-02 12:30:09 | INFO     | image_generation_service.service:_generate_sd_sticker:244 | Получен URL изображения: https://replicate.delivery/xezq/exm73rgkxgzoOSC5z3aOIgqY1DLYiquXwL1BwgNDHnHQCZZKA/out-0.png
+2025-06-02 12:30:10 | INFO     | image_generation_service.service:_generate_sd_sticker:257 | Изображение успешно загружено и обработано
+2025-06-02 12:30:11 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 12:30:37 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:31:09 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:31:20 | INFO     | image_generation_service.service:translate_to_english:94 | Перевод: Уставший кот в кресле -> Tired cat in an armchair
+2025-06-02 12:31:20 | WARNING  | image_generation_service.service:create_detailed_prompt:144 | Gemini API не доступен, используем простой промпт
+2025-06-02 12:31:20 | INFO     | image_generation_service.service:_generate_sd_sticker:216 | Финальный промпт для генерации: sticker of Tired cat in an armchair, default style, die-cut sticker, white background
+2025-06-02 12:31:25 | INFO     | image_generation_service.service:_generate_sd_sticker:244 | Получен URL изображения: https://replicate.delivery/xezq/acOPaYcd46YBLdMFS6u3WQeGusjvhS4T2Vyoj98t19k2CZZKA/out-0.png
+2025-06-02 12:31:26 | INFO     | image_generation_service.service:_generate_sd_sticker:257 | Изображение успешно загружено и обработано
+2025-06-02 12:31:27 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 12:32:51 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 12:32:51 | INFO     | __main__:on_shutdown:45 | Бот остановлен
+2025-06-02 12:34:24 | INFO     | db_manager.manager:__init__:18 | Инициализация базы данных: /Users/cooldom/VoiceSticker/bot_database.db
+2025-06-02 12:34:24 | INFO     | image_generation_service.service:__init__:47 | Инициализация сервиса генерации изображений (MVP mode: False)
+2025-06-02 12:34:25 | INFO     | stt_service.service:__init__:29 | Инициализация STT сервиса (MVP mode: False)
+2025-06-02 12:34:25 | INFO     | __main__:main:88 | Запуск в режиме polling (разработка)
+2025-06-02 12:34:26 | INFO     | __main__:on_startup:25 | Запуск бота VoiceSticker...
+2025-06-02 12:34:26 | INFO     | __main__:on_startup:28 | Инициализация базы данных...
+2025-06-02 12:34:26 | INFO     | db_manager.manager:init_db:96 | База данных успешно инициализирована
+2025-06-02 12:34:26 | INFO     | __main__:on_startup:32 | Инициализация сервисов...
+2025-06-02 12:34:26 | INFO     | image_generation_service.service:initialize:55 | Инициализация сервиса генерации через Replicate API
+2025-06-02 12:34:26 | INFO     | stt_service.service:initialize:38 | Загружаем Whisper модель 'base'...
+2025-06-02 12:34:27 | INFO     | stt_service.service:initialize:47 | Whisper модель успешно загружена!
+2025-06-02 12:34:27 | INFO     | __main__:on_startup:36 | ✅ Бот успешно запущен!
+2025-06-02 12:34:46 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:35:15 | INFO     | image_generation_service.service:translate_to_english:94 | Перевод: Уставший котик на диване сидит и курит сигарету -> A tired cat on the couch sits and smokes a cigarette
+2025-06-02 12:35:15 | INFO     | image_generation_service.service:create_detailed_prompt:143 | GEMINI_AVAILABLE: True
+2025-06-02 12:35:15 | INFO     | image_generation_service.service:create_detailed_prompt:144 | GEMINI_API_KEY exists: True
+2025-06-02 12:35:15 | INFO     | image_generation_service.service:create_detailed_prompt:145 | GEMINI_API_KEY length: 39
+2025-06-02 12:35:15 | INFO     | image_generation_service.service:create_detailed_prompt:152 | Создаем детальный промпт через Gemini для: Уставший котик на диване сидит и курит сигарету (A tired cat on the couch sits and smokes a cigarette)
+2025-06-02 12:35:16 | ERROR    | image_generation_service.service:create_detailed_prompt:200 | Ошибка Gemini: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-06-02 12:35:16 | INFO     | image_generation_service.service:translate_to_english:94 | Перевод: Уставший котик на диване сидит и курит сигарету -> A tired cat on the couch sits and smokes a cigarette
+2025-06-02 12:35:16 | INFO     | image_generation_service.service:_generate_sd_sticker:221 | Финальный промпт для генерации: sticker of A tired cat on the couch sits and smokes a cigarette, default style, die-cut sticker, white background
+2025-06-02 12:35:33 | INFO     | image_generation_service.service:_generate_sd_sticker:249 | Получен URL изображения: https://replicate.delivery/xezq/tpkBWWRqfaSwByISsQgF6gBeV91cIXtrWWOShWbe7GdITklpA/out-0.png
+2025-06-02 12:35:34 | INFO     | image_generation_service.service:_generate_sd_sticker:262 | Изображение успешно загружено и обработано
+2025-06-02 12:35:35 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 12:37:21 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 12:37:21 | INFO     | __main__:on_shutdown:45 | Бот остановлен
+2025-06-02 12:37:28 | INFO     | db_manager.manager:__init__:18 | Инициализация базы данных: /Users/cooldom/VoiceSticker/bot_database.db
+2025-06-02 12:37:29 | INFO     | image_generation_service.service:__init__:47 | Инициализация сервиса генерации изображений (MVP mode: False)
+2025-06-02 12:37:30 | INFO     | stt_service.service:__init__:29 | Инициализация STT сервиса (MVP mode: False)
+2025-06-02 12:37:30 | INFO     | __main__:main:88 | Запуск в режиме polling (разработка)
+2025-06-02 12:37:30 | INFO     | __main__:on_startup:25 | Запуск бота VoiceSticker...
+2025-06-02 12:37:30 | INFO     | __main__:on_startup:28 | Инициализация базы данных...
+2025-06-02 12:37:30 | INFO     | db_manager.manager:init_db:96 | База данных успешно инициализирована
+2025-06-02 12:37:30 | INFO     | __main__:on_startup:32 | Инициализация сервисов...
+2025-06-02 12:37:30 | INFO     | image_generation_service.service:initialize:55 | Инициализация сервиса генерации через Replicate API
+2025-06-02 12:37:30 | INFO     | stt_service.service:initialize:38 | Загружаем Whisper модель 'base'...
+2025-06-02 12:37:31 | INFO     | stt_service.service:initialize:47 | Whisper модель успешно загружена!
+2025-06-02 12:37:31 | INFO     | __main__:on_startup:36 | ✅ Бот успешно запущен!
+2025-06-02 12:37:37 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:37:57 | INFO     | image_generation_service.service:translate_to_english:94 | Перевод: Грустный котик сидит в кресле и пьет пиво -> A sad cat sits in a chair and drinks beer
+2025-06-02 12:37:57 | INFO     | image_generation_service.service:create_detailed_prompt:143 | GEMINI_AVAILABLE: True
+2025-06-02 12:37:57 | INFO     | image_generation_service.service:create_detailed_prompt:144 | GEMINI_API_KEY exists: True
+2025-06-02 12:37:57 | INFO     | image_generation_service.service:create_detailed_prompt:145 | GEMINI_API_KEY length: 39
+2025-06-02 12:37:57 | INFO     | image_generation_service.service:create_detailed_prompt:152 | Создаем детальный промпт через Gemini для: Грустный котик сидит в кресле и пьет пиво (A sad cat sits in a chair and drinks beer)
+2025-06-02 12:37:58 | INFO     | image_generation_service.service:create_detailed_prompt:195 | Gemini создал промпт: A cute, kawaii-style cat with big, sad eyes sits slumped in a tiny armchair, holding a miniature beer mug.  Pale blue armchair, orange cat with soft pink cheeks,  light brown beer.  Simple, rounded shapes.
+2025-06-02 12:37:58 | INFO     | image_generation_service.service:_generate_sd_sticker:221 | Финальный промпт для генерации: A cute, kawaii-style cat with big, sad eyes sits slumped in a tiny armchair, holding a miniature beer mug.  Pale blue armchair, orange cat with soft pink cheeks,  light brown beer.  Simple, rounded shapes., cute kawaii style with big eyes and simple shapes, sticker design, die-cut sticker, white background, centered
+2025-06-02 12:38:03 | INFO     | image_generation_service.service:_generate_sd_sticker:249 | Получен URL изображения: https://replicate.delivery/xezq/BfMEFJQ2eVgABE1faxGzaCJt8zFddcjspOiLPzGaiH23XklpA/out-0.png
+2025-06-02 12:38:05 | INFO     | image_generation_service.service:_generate_sd_sticker:262 | Изображение успешно загружено и обработано
+2025-06-02 12:38:06 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 12:40:04 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:40:27 | INFO     | image_generation_service.service:translate_to_english:94 | Перевод: Кашка в шляпе -> Porridge in a hat
+2025-06-02 12:40:27 | INFO     | image_generation_service.service:create_detailed_prompt:143 | GEMINI_AVAILABLE: True
+2025-06-02 12:40:27 | INFO     | image_generation_service.service:create_detailed_prompt:144 | GEMINI_API_KEY exists: True
+2025-06-02 12:40:27 | INFO     | image_generation_service.service:create_detailed_prompt:145 | GEMINI_API_KEY length: 39
+2025-06-02 12:40:27 | INFO     | image_generation_service.service:create_detailed_prompt:152 | Создаем детальный промпт через Gemini для: Кашка в шляпе (Porridge in a hat)
+2025-06-02 12:40:28 | INFO     | image_generation_service.service:create_detailed_prompt:195 | Gemini создал промпт: A cheerful bowl of oatmeal wearing a jaunty, oversized top hat, grinning broadly.  Big, bright eyes, rosy cheeks.  Warm, golden oatmeal with playful steam curls.  Disney Pixar style, 3D cartoon, cute and round.
+2025-06-02 12:40:28 | INFO     | image_generation_service.service:_generate_sd_sticker:221 | Финальный промпт для генерации: A cheerful bowl of oatmeal wearing a jaunty, oversized top hat, grinning broadly.  Big, bright eyes, rosy cheeks.  Warm, golden oatmeal with playful steam curls.  Disney Pixar style, 3D cartoon, cute and round., Disney Pixar 3D cartoon style with expressive features, sticker design, die-cut sticker, white background, centered
+2025-06-02 12:40:40 | INFO     | image_generation_service.service:_generate_sd_sticker:249 | Получен URL изображения: https://replicate.delivery/xezq/b46G4lAG5xLaNpJfZVP0vrbEeB61WfhMVotjUifFKiIi5ILTB/out-0.png
+2025-06-02 12:40:41 | INFO     | image_generation_service.service:_generate_sd_sticker:262 | Изображение успешно загружено и обработано
+2025-06-02 12:40:43 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 12:41:02 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:41:31 | INFO     | image_generation_service.service:translate_to_english:94 | Перевод: Бутылка водки пьет текилу -> A bottle of vodka drinks tequila
+2025-06-02 12:41:31 | INFO     | image_generation_service.service:create_detailed_prompt:143 | GEMINI_AVAILABLE: True
+2025-06-02 12:41:31 | INFO     | image_generation_service.service:create_detailed_prompt:144 | GEMINI_API_KEY exists: True
+2025-06-02 12:41:31 | INFO     | image_generation_service.service:create_detailed_prompt:145 | GEMINI_API_KEY length: 39
+2025-06-02 12:41:31 | INFO     | image_generation_service.service:create_detailed_prompt:152 | Создаем детальный промпт через Gemini для: Бутылка водки пьет текилу (A bottle of vodka drinks tequila)
+2025-06-02 12:41:31 | INFO     | image_generation_service.service:create_detailed_prompt:195 | Gemini создал промпт: A cute kawaii vodka bottle with big, happy eyes and rosy cheeks, using simple shapes and pastel colors, playfully drinking a shot of tequila from a tiny glass.
+2025-06-02 12:41:31 | INFO     | image_generation_service.service:_generate_sd_sticker:221 | Финальный промпт для генерации: A cute kawaii vodka bottle with big, happy eyes and rosy cheeks, using simple shapes and pastel colors, playfully drinking a shot of tequila from a tiny glass., cute kawaii style with big eyes and simple shapes, sticker design, die-cut sticker, white background, centered
+2025-06-02 12:41:41 | INFO     | image_generation_service.service:_generate_sd_sticker:249 | Получен URL изображения: https://replicate.delivery/xezq/p2hmBANN92KqNRg8n8YQl8fDjJqPpSQWFdczsC3bgWQqHZZKA/out-0.png
+2025-06-02 12:41:42 | INFO     | image_generation_service.service:_generate_sd_sticker:262 | Изображение успешно загружено и обработано
+2025-06-02 12:41:43 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 12:41:55 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:42:15 | INFO     | image_generation_service.service:translate_to_english:94 | Перевод: Кот верхом на собаке -> Cat on the dog
+2025-06-02 12:42:15 | INFO     | image_generation_service.service:create_detailed_prompt:143 | GEMINI_AVAILABLE: True
+2025-06-02 12:42:15 | INFO     | image_generation_service.service:create_detailed_prompt:144 | GEMINI_API_KEY exists: True
+2025-06-02 12:42:15 | INFO     | image_generation_service.service:create_detailed_prompt:145 | GEMINI_API_KEY length: 39
+2025-06-02 12:42:15 | INFO     | image_generation_service.service:create_detailed_prompt:152 | Создаем детальный промпт через Gemini для: Кот верхом на собаке (Cat on the dog)
+2025-06-02 12:42:16 | INFO     | image_generation_service.service:create_detailed_prompt:195 | Gemini создал промпт: A cute kawaii-style cat, with large, sparkling eyes and a cheerful expression, sits atop a friendly-looking dog.  The cat is light peach, the dog cream-colored. Both have simple, rounded shapes.  Use pastel pink and blue accents.
+2025-06-02 12:42:16 | INFO     | image_generation_service.service:_generate_sd_sticker:221 | Финальный промпт для генерации: A cute kawaii-style cat, with large, sparkling eyes and a cheerful expression, sits atop a friendly-looking dog.  The cat is light peach, the dog cream-colored. Both have simple, rounded shapes.  Use pastel pink and blue accents., cute kawaii style with big eyes and simple shapes, sticker design, die-cut sticker, white background, centered
+2025-06-02 12:42:22 | INFO     | image_generation_service.service:_generate_sd_sticker:249 | Получен URL изображения: https://replicate.delivery/xezq/oEnhNtfFKLVvfUF1WlcGgWV0C9NvgNqNa9CVZAk0bRH9PyyUA/out-0.png
+2025-06-02 12:42:23 | INFO     | image_generation_service.service:_generate_sd_sticker:262 | Изображение успешно загружено и обработано
+2025-06-02 12:42:24 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 12:42:35 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:42:48 | INFO     | image_generation_service.service:translate_to_english:94 | Перевод: Кот сидит на собаке -> Cat sits on a dog
+2025-06-02 12:42:48 | INFO     | image_generation_service.service:create_detailed_prompt:143 | GEMINI_AVAILABLE: True
+2025-06-02 12:42:48 | INFO     | image_generation_service.service:create_detailed_prompt:144 | GEMINI_API_KEY exists: True
+2025-06-02 12:42:48 | INFO     | image_generation_service.service:create_detailed_prompt:145 | GEMINI_API_KEY length: 39
+2025-06-02 12:42:48 | INFO     | image_generation_service.service:create_detailed_prompt:152 | Создаем детальный промпт через Gemini для: Кот сидит на собаке (Cat sits on a dog)
+2025-06-02 12:42:49 | INFO     | image_generation_service.service:create_detailed_prompt:195 | Gemini создал промпт: A cute kawaii-style cat with large, bright blue eyes sits comfortably on a happy-looking dog.  The cat is light orange, the dog cream-colored. Both have simple, rounded shapes and cheerful expressions.
+2025-06-02 12:42:49 | INFO     | image_generation_service.service:_generate_sd_sticker:221 | Финальный промпт для генерации: A cute kawaii-style cat with large, bright blue eyes sits comfortably on a happy-looking dog.  The cat is light orange, the dog cream-colored. Both have simple, rounded shapes and cheerful expressions., cute kawaii style with big eyes and simple shapes, sticker design, die-cut sticker, white background, centered
+2025-06-02 12:42:54 | INFO     | image_generation_service.service:_generate_sd_sticker:249 | Получен URL изображения: https://replicate.delivery/xezq/IinZOfLJ9UWtH6RTAlHfB8ck2oMfIJMM2nQfKPNKCCu1BJLTB/out-0.png
+2025-06-02 12:42:55 | INFO     | image_generation_service.service:_generate_sd_sticker:262 | Изображение успешно загружено и обработано
+2025-06-02 12:42:56 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 12:43:51 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:44:12 | INFO     | image_generation_service.service:translate_to_english:94 | Перевод: Кот сидит на спине собачки -> The cat sits on the back of the dog
+2025-06-02 12:44:12 | INFO     | image_generation_service.service:create_detailed_prompt:143 | GEMINI_AVAILABLE: True
+2025-06-02 12:44:12 | INFO     | image_generation_service.service:create_detailed_prompt:144 | GEMINI_API_KEY exists: True
+2025-06-02 12:44:12 | INFO     | image_generation_service.service:create_detailed_prompt:145 | GEMINI_API_KEY length: 39
+2025-06-02 12:44:12 | INFO     | image_generation_service.service:create_detailed_prompt:152 | Создаем детальный промпт через Gemini для: Кот сидит на спине собачки (The cat sits on the back of the dog)
+2025-06-02 12:44:13 | INFO     | image_generation_service.service:create_detailed_prompt:195 | Gemini создал промпт: A cute, kawaii-style cat with big, bright blue eyes sits atop a small, happy dog.  The cat is light orange, the dog cream-colored. Both have simple, rounded shapes.  Joyful expressions.
+2025-06-02 12:44:13 | INFO     | image_generation_service.service:_generate_sd_sticker:221 | Финальный промпт для генерации: A cute, kawaii-style cat with big, bright blue eyes sits atop a small, happy dog.  The cat is light orange, the dog cream-colored. Both have simple, rounded shapes.  Joyful expressions., cute kawaii style with big eyes and simple shapes, sticker design, die-cut sticker, white background, centered
+2025-06-02 12:44:18 | INFO     | image_generation_service.service:_generate_sd_sticker:249 | Получен URL изображения: https://replicate.delivery/xezq/6AWPI5qOtRa4DJwkkRdBUm6uq2149HsfsmSnJO6s0Xw4IZZKA/out-0.png
+2025-06-02 12:44:19 | INFO     | image_generation_service.service:_generate_sd_sticker:262 | Изображение успешно загружено и обработано
+2025-06-02 12:44:20 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 12:47:49 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 12:48:02 | INFO     | stt_service.service:_transcribe_whisper:114 | Распознаем аудио: /Users/cooldom/VoiceSticker/storage/voice_7945261060_AwACAgIAAxkBAAPiaD1zUR2kEFUBg3DkvrTC3N4m3r4AAtp5AALIhulJaXhB3WLZrwg2BA.ogg
+2025-06-02 12:48:02 | INFO     | stt_service.service:_convert_to_wav:179 | Конвертируем /Users/cooldom/VoiceSticker/storage/voice_7945261060_AwACAgIAAxkBAAPiaD1zUR2kEFUBg3DkvrTC3N4m3r4AAtp5AALIhulJaXhB3WLZrwg2BA.ogg в WAV
+2025-06-02 12:48:03 | INFO     | stt_service.service:_transcribe_whisper:154 | Распознан текст: Вот сидит на спине собаки.
+2025-06-02 12:48:22 | INFO     | stt_service.service:_transcribe_whisper:114 | Распознаем аудио: /Users/cooldom/VoiceSticker/storage/voice_7945261060_AwACAgIAAxkBAAPmaD1zZZ8U652wRqdKRHBibANEXJgAAt15AALIhulJjyNdce1SxE82BA.ogg
+2025-06-02 12:48:22 | INFO     | stt_service.service:_convert_to_wav:179 | Конвертируем /Users/cooldom/VoiceSticker/storage/voice_7945261060_AwACAgIAAxkBAAPmaD1zZZ8U652wRqdKRHBibANEXJgAAt15AALIhulJjyNdce1SxE82BA.ogg в WAV
+2025-06-02 12:48:22 | INFO     | stt_service.service:_transcribe_whisper:154 | Распознан текст: Хик сидит на спине собаки.
+2025-06-02 12:56:01 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 12:56:01 | INFO     | __main__:on_shutdown:45 | Бот остановлен
+2025-06-02 13:52:22 | INFO     | db_manager.manager:__init__:18 | Инициализация базы данных: /Users/cooldom/VoiceSticker/bot_database.db
+2025-06-02 13:52:22 | INFO     | prompt_optimization.optimizer:_load_templates:132 | Создаю новый файл шаблонов промптов
+2025-06-02 13:52:23 | INFO     | image_generation_service.service:__init__:89 | Инициализация сервиса генерации изображений (MVP mode: False, A/B testing: True)
+2025-06-02 13:52:24 | INFO     | stt_service.service:__init__:29 | Инициализация STT сервиса (MVP mode: False)
+2025-06-02 13:52:24 | INFO     | __main__:main:88 | Запуск в режиме polling (разработка)
+2025-06-02 13:52:25 | INFO     | __main__:on_startup:25 | Запуск бота VoiceSticker...
+2025-06-02 13:52:25 | INFO     | __main__:on_startup:28 | Инициализация базы данных...
+2025-06-02 13:52:25 | INFO     | db_manager.manager:init_db:96 | База данных успешно инициализирована
+2025-06-02 13:52:25 | INFO     | __main__:on_startup:32 | Инициализация сервисов...
+2025-06-02 13:52:25 | INFO     | image_generation_service.service:initialize:98 | Инициализация сервиса генерации через Replicate API
+2025-06-02 13:52:25 | INFO     | stt_service.service:initialize:38 | Загружаем Whisper модель 'base'...
+2025-06-02 13:52:25 | INFO     | stt_service.service:initialize:47 | Whisper модель успешно загружена!
+2025-06-02 13:52:25 | INFO     | __main__:on_startup:36 | ✅ Бот успешно запущен!
+2025-06-02 13:52:37 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 13:53:11 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Злой босс кушает бургер' (ru) -> 'The evil boss eats a burger'
+2025-06-02 13:53:11 | ERROR    | image_generation_service.service:generate_enhanced_prompt:367 | Ошибка создания enhanced prompt: b <= 0
+2025-06-02 13:53:12 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='cute sticker of The evil boss eats a burger, cartoon style, die-cut sticker, white background...', style=cartoon
+2025-06-02 13:53:16 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/3ifTMMp0WfqanUoVfvaezlWcNF7g1gf2B0pYbxw0pFf9m0sMF/out-0.png
+2025-06-02 13:53:17 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 13:53:18 | ERROR    | sticker_utils.utils:process_sticker:352 | Ошибка при обработке стикера: 'bytes' object has no attribute 'mode'
+2025-06-02 13:53:18 | ERROR    | bot_handlers:cb_select_background:482 | Ошибка при создании стикера: 'bytes' object has no attribute 'mode'
+2025-06-02 13:53:18 | ERROR    | logger:log_error:121 | Error occurred: AttributeError
+2025-06-02 14:03:18 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 14:03:18 | INFO     | __main__:on_shutdown:45 | Бот остановлен
+2025-06-02 14:08:58 | INFO     | db_manager.manager:__init__:18 | Инициализация базы данных: /Users/cooldom/VoiceSticker/bot_database.db
+2025-06-02 14:08:58 | INFO     | image_generation_service.service:__init__:89 | Инициализация сервиса генерации изображений (MVP mode: False, A/B testing: True)
+2025-06-02 14:09:00 | INFO     | stt_service.service:__init__:29 | Инициализация STT сервиса (MVP mode: False)
+2025-06-02 14:09:00 | INFO     | __main__:main:88 | Запуск в режиме polling (разработка)
+2025-06-02 14:09:00 | INFO     | __main__:on_startup:25 | Запуск бота VoiceSticker...
+2025-06-02 14:09:00 | INFO     | __main__:on_startup:28 | Инициализация базы данных...
+2025-06-02 14:09:00 | INFO     | db_manager.manager:init_db:96 | База данных успешно инициализирована
+2025-06-02 14:09:00 | INFO     | __main__:on_startup:32 | Инициализация сервисов...
+2025-06-02 14:09:00 | INFO     | image_generation_service.service:initialize:98 | Инициализация сервиса генерации через Replicate API
+2025-06-02 14:09:00 | INFO     | stt_service.service:initialize:38 | Загружаем Whisper модель 'base'...
+2025-06-02 14:09:01 | INFO     | stt_service.service:initialize:47 | Whisper модель успешно загружена!
+2025-06-02 14:09:01 | INFO     | __main__:on_startup:36 | ✅ Бот успешно запущен!
+2025-06-02 14:09:05 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 14:09:47 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Злой босс ест бургер' (ru) -> 'Evil boss eats a burger'
+2025-06-02 14:09:47 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Precise Description v1 для пользователя 7945261060 (score: 0.956)
+2025-06-02 14:09:49 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Precise Description v1: Злой босс ест бургер (Evil boss eating a burger)
+2025-06-02 14:09:49 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='Злой босс ест бургер (Evil boss eating a burger), A middle-aged man with a stern, angry expression, ...', style=realistic
+2025-06-02 14:09:56 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/4q6Gpd1ASfyAAShsgWa4TrlVKZhEh3e1pAN8WeSh4usHEnlpA/out-0.png
+2025-06-02 14:09:57 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:09:58 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:09:59 | ERROR    | logger:async_wrapper:83 | Error in save_sticker: 'DatabaseManager' object has no attribute 'execute'
+2025-06-02 14:09:59 | ERROR    | bot_handlers:cb_select_background:484 | Ошибка при создании стикера: 'DatabaseManager' object has no attribute 'execute'
+2025-06-02 14:09:59 | ERROR    | logger:log_error:121 | Error occurred: AttributeError
+2025-06-02 14:20:02 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 14:20:02 | INFO     | __main__:on_shutdown:45 | Бот остановлен
+2025-06-02 14:20:26 | INFO     | db_manager.manager:__init__:18 | Инициализация базы данных: /Users/cooldom/VoiceSticker/bot_database.db
+2025-06-02 14:20:27 | INFO     | image_generation_service.service:__init__:89 | Инициализация сервиса генерации изображений (MVP mode: False, A/B testing: True)
+2025-06-02 14:20:28 | INFO     | stt_service.service:__init__:29 | Инициализация STT сервиса (MVP mode: False)
+2025-06-02 14:20:28 | INFO     | __main__:main:88 | Запуск в режиме polling (разработка)
+2025-06-02 14:20:28 | INFO     | __main__:on_startup:25 | Запуск бота VoiceSticker...
+2025-06-02 14:20:28 | INFO     | __main__:on_startup:28 | Инициализация базы данных...
+2025-06-02 14:20:28 | INFO     | db_manager.manager:init_db:100 | База данных успешно инициализирована
+2025-06-02 14:20:28 | INFO     | __main__:on_startup:32 | Инициализация сервисов...
+2025-06-02 14:20:28 | INFO     | image_generation_service.service:initialize:98 | Инициализация сервиса генерации через Replicate API
+2025-06-02 14:20:28 | INFO     | stt_service.service:initialize:38 | Загружаем Whisper модель 'base'...
+2025-06-02 14:20:29 | INFO     | stt_service.service:initialize:47 | Whisper модель успешно загружена!
+2025-06-02 14:20:29 | INFO     | __main__:on_startup:36 | ✅ Бот успешно запущен!
+2025-06-02 14:20:37 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 14:20:50 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Злой босс ест бургер' (ru) -> 'Evil boss eats a burger'
+2025-06-02 14:20:50 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Precise Description v1 для пользователя 7945261060 (score: 0.685)
+2025-06-02 14:20:52 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Precise Description v1: Злой босс ест бургер (Evil boss eating a burger)
+2025-06-02 14:20:52 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='Злой босс ест бургер (Evil boss eating a burger), A middle-aged man with a stern, angry expression, ...', style=realistic
+2025-06-02 14:21:00 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/AuRuYalq8H6RIhqIWXZQFydDY1d2UwnUuypwmDYumG0G7sMF/out-0.png
+2025-06-02 14:21:01 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:21:02 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:21:03 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:21:23 | INFO     | prompt_optimization.optimizer:record_result:207 | Результат записан: template=precise_v1, rating=5, success_rate=100.00%
+2025-06-02 14:21:23 | INFO     | image_generation_service.service:record_feedback:690 | A/B test result recorded: template=precise_v1, rating=5
+2025-06-02 14:21:23 | INFO     | image_generation_service.service:record_feedback:692 | Feedback recorded: rating=5, style=realistic, template=Precise Description v1
+2025-06-02 14:22:18 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Водка пьет текилу' (ru) -> 'Vodka drinks tequila'
+2025-06-02 14:22:18 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Structured Components v1 для пользователя 7945261060 (score: 0.859)
+2025-06-02 14:22:20 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Structured Components v1: A bottle of Vodka drinking a shot of Tequila
+2025-06-02 14:22:20 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='A bottle of Vodka drinking a shot of Tequila, Vodka, anthropomorphized with large, expressive, Disne...', style=cartoon
+2025-06-02 14:22:25 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/wmOp02vlVew5Ty2FLIxtJcYUFNAifwmnm6mxdSmBTvcwtzyUA/out-0.png
+2025-06-02 14:22:26 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:22:26 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:22:28 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:22:39 | INFO     | prompt_optimization.optimizer:record_result:207 | Результат записан: template=structured_v1, rating=1, success_rate=0.00%
+2025-06-02 14:22:39 | INFO     | image_generation_service.service:record_feedback:690 | A/B test result recorded: template=structured_v1, rating=1
+2025-06-02 14:22:39 | INFO     | image_generation_service.service:record_feedback:692 | Feedback recorded: rating=1, style=cartoon, template=Structured Components v1
+2025-06-02 14:23:36 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Кот скачет верхом на собаке в ковбойской шляпе с базукой' (ru) -> 'The cat jumps riding a dog in a cowboy hat with a bazuka'
+2025-06-02 14:23:36 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Precise Description v1 для пользователя 7945261060 (score: 0.621)
+2025-06-02 14:23:38 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Precise Description v1: A cat riding a dog, the cat wearing a cowboy hat and holding a bazooka, mid-leap.
+2025-06-02 14:23:38 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='A cat riding a dog, the cat wearing a cowboy hat and holding a bazooka, mid-leap., Photorealistic re...', style=realistic
+2025-06-02 14:23:44 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/AdVEvfrPwxSfbkBNS59hzeNBhAkDRXbnFdvs8RngLQqe7OLTB/out-0.png
+2025-06-02 14:23:45 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:23:45 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:23:48 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:24:16 | INFO     | prompt_optimization.optimizer:record_result:207 | Результат записан: template=precise_v1, rating=5, success_rate=100.00%
+2025-06-02 14:24:16 | INFO     | image_generation_service.service:record_feedback:690 | A/B test result recorded: template=precise_v1, rating=5
+2025-06-02 14:24:16 | INFO     | image_generation_service.service:record_feedback:692 | Feedback recorded: rating=5, style=realistic, template=Precise Description v1
+2025-06-02 14:24:44 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 14:25:20 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Енот который в шоке' (ru) -> 'Raccoon'
+2025-06-02 14:25:20 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Precise Description v1 для пользователя 7945261060 (score: 0.937)
+2025-06-02 14:25:22 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Precise Description v1: A raccoon experiencing shock
+2025-06-02 14:25:22 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='A raccoon experiencing shock, A photorealistic raccoon with wide, startled eyes, fur meticulously de...', style=realistic
+2025-06-02 14:25:27 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/DS4hQZ1VGlLcBplQ5fZt6PJk5gk09MTvnTFNeCpxuCHnwzyUA/out-0.png
+2025-06-02 14:25:28 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:25:29 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:25:30 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:29:13 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 14:33:18 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 14:33:30 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 14:33:32 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 14:34:03 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'смешной котик в кепке' (ru) -> 'Funny cat in a cap'
+2025-06-02 14:34:03 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Emotion-Centric v1 для пользователя 179427103 (score: 0.958)
+2025-06-02 14:34:06 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Emotion-Centric v1: Funny cat in a cap (смешной котик в кепке)
+2025-06-02 14:34:06 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='Funny cat in a cap (смешной котик в кепке), A chubby chibi cat wearing a slightly oversized, brightl...', style=anime
+2025-06-02 14:34:11 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/K5sLIXvlk6bHF9jBDTC9yNtfGZe3Dxbeg2uPDvcvXeqKjPLTB/out-0.png
+2025-06-02 14:34:12 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:34:12 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:34:13 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:34:26 | INFO     | prompt_optimization.optimizer:record_result:207 | Результат записан: template=emotion_focused_v1, rating=5, success_rate=100.00%
+2025-06-02 14:34:26 | INFO     | image_generation_service.service:record_feedback:690 | A/B test result recorded: template=emotion_focused_v1, rating=5
+2025-06-02 14:34:26 | INFO     | image_generation_service.service:record_feedback:692 | Feedback recorded: rating=5, style=anime, template=Emotion-Centric v1
+2025-06-02 14:34:55 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'злой орк' (ru) -> 'Evil orc'
+2025-06-02 14:34:55 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Precise Description v1 для пользователя 179427103 (score: 0.980)
+2025-06-02 14:34:56 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Precise Description v1: злой орк (Evil Orc)
+2025-06-02 14:34:56 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='злой орк (Evil Orc), A single, muscular orc with tusks, a scarred face, and intensely angry eyes.  H...', style=realistic
+2025-06-02 14:35:02 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/VmwkaWsZe81BByRRbsS8mcLccypAHksjlLX4K6L8WcCz8ZZKA/out-0.png
+2025-06-02 14:35:03 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:35:03 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:35:05 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:35:11 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Хитрый жук в костюме' (ru) -> 'Cunning beetle in a suit'
+2025-06-02 14:35:11 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Emotion-Centric v1 для пользователя 584443397 (score: 0.801)
+2025-06-02 14:35:14 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Emotion-Centric v1: Хитрый жук в костюме (Cunning beetle in a suit)
+2025-06-02 14:35:14 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='Хитрый жук в костюме (Cunning beetle in a suit), A beetle, wearing a slightly oversized, impeccably ...', style=watercolor
+2025-06-02 14:35:26 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/725GOc1yeYTHCat7NBdBa0CU3SaDz9eiLNp6eHJkBnx9znlpA/out-0.png
+2025-06-02 14:35:27 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:35:27 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:35:29 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:35:42 | INFO     | prompt_optimization.optimizer:record_result:207 | Результат записан: template=precise_v1, rating=3, success_rate=66.67%
+2025-06-02 14:35:42 | INFO     | image_generation_service.service:record_feedback:690 | A/B test result recorded: template=precise_v1, rating=3
+2025-06-02 14:35:42 | INFO     | image_generation_service.service:record_feedback:692 | Feedback recorded: rating=3, style=realistic, template=Precise Description v1
+2025-06-02 14:36:02 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'надпись "Сосал?"' (ru) -> 'The inscription "sucked?"'
+2025-06-02 14:36:02 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Precise Description v1 для пользователя 179427103 (score: 0.687)
+2025-06-02 14:36:04 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Precise Description v1: The Cyrillic inscription "Сосал?"
+2025-06-02 14:36:04 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='The Cyrillic inscription "Сосал?", The text is rendered in a bold, sans-serif typeface, using a deep...', style=minimalist
+2025-06-02 14:36:12 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/PKcY5DXB4uJRBRZgeOWznKofyVvHkCYKGevwaAn8M9YX1nlpA/out-0.png
+2025-06-02 14:36:12 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:36:13 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:36:15 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:36:29 | INFO     | prompt_optimization.optimizer:record_result:207 | Результат записан: template=precise_v1, rating=1, success_rate=50.00%
+2025-06-02 14:36:29 | INFO     | image_generation_service.service:record_feedback:690 | A/B test result recorded: template=precise_v1, rating=1
+2025-06-02 14:36:29 | INFO     | image_generation_service.service:record_feedback:692 | Feedback recorded: rating=1, style=minimalist, template=Precise Description v1
+2025-06-02 14:39:28 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 14:39:28 | INFO     | __main__:on_shutdown:45 | Бот остановлен
+2025-06-02 14:39:33 | INFO     | db_manager.manager:__init__:18 | Инициализация базы данных: /Users/cooldom/VoiceSticker/bot_database.db
+2025-06-02 14:39:34 | INFO     | image_generation_service.service:__init__:89 | Инициализация сервиса генерации изображений (MVP mode: False, A/B testing: True)
+2025-06-02 14:39:35 | INFO     | stt_service.service:__init__:29 | Инициализация STT сервиса (MVP mode: False)
+2025-06-02 14:39:35 | INFO     | __main__:main:88 | Запуск в режиме polling (разработка)
+2025-06-02 14:39:35 | INFO     | __main__:on_startup:25 | Запуск бота VoiceSticker...
+2025-06-02 14:39:35 | INFO     | __main__:on_startup:28 | Инициализация базы данных...
+2025-06-02 14:39:35 | INFO     | db_manager.manager:init_db:100 | База данных успешно инициализирована
+2025-06-02 14:39:35 | INFO     | __main__:on_startup:32 | Инициализация сервисов...
+2025-06-02 14:39:35 | INFO     | image_generation_service.service:initialize:98 | Инициализация сервиса генерации через Replicate API
+2025-06-02 14:39:35 | INFO     | stt_service.service:initialize:38 | Загружаем Whisper модель 'base'...
+2025-06-02 14:39:36 | INFO     | stt_service.service:initialize:47 | Whisper модель успешно загружена!
+2025-06-02 14:39:36 | INFO     | __main__:on_startup:36 | ✅ Бот успешно запущен!
+2025-06-02 14:40:39 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 14:41:11 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Очень хитрый жук в костюме' (ru) -> 'Very cunning beetle in a suit'
+2025-06-02 14:41:11 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Precise Description v1 для пользователя 584443397 (score: 0.722)
+2025-06-02 14:41:13 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Precise Description v1: Очень хитрый жук в костюме (A very cunning beetle in a suit)
+2025-06-02 14:41:13 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='Очень хитрый жук в костюме (A very cunning beetle in a suit), A beetle, wearing a slightly oversized...', style=watercolor
+2025-06-02 14:41:18 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/uQySmoZ32k5xMJIfDgCCzfGskb717ZvYzYNcffHuJVC39PLTB/out-0.png
+2025-06-02 14:41:19 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:41:19 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:41:20 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:42:01 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 14:42:24 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Хитрая пчела в костюме' (ru) -> 'Cunning bee in a suit'
+2025-06-02 14:42:24 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Emotion-Centric v1 для пользователя 7945261060 (score: 0.902)
+2025-06-02 14:42:27 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Emotion-Centric v1: Хитрая пчела в костюме (Cunning bee in a suit)
+2025-06-02 14:42:27 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='Хитрая пчела в костюме (Cunning bee in a suit), A photorealistic bee, meticulously rendered with acc...', style=realistic
+2025-06-02 14:42:36 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/Jv9QhPeW6x1WMCI1dMwBsiEiCFRmezOPPUR4Z8efv0ZzCQLTB/out-0.png
+2025-06-02 14:42:36 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 14:42:37 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:42:38 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:42:40 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:43:31 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 14:43:38 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Задумчивый лис в космосе' (ru) -> 'Thoughtful fox in space'
+2025-06-02 14:43:38 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Emotion-Centric v1 для пользователя 584443397 (score: 0.850)
+2025-06-02 14:43:41 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Emotion-Centric v1: Задумчивый лис в космосе (Thoughtful fox in space)
+2025-06-02 14:43:41 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='Задумчивый лис в космосе (Thoughtful fox in space), A realistic fox, rendered with highly detailed f...', style=realistic
+2025-06-02 14:43:47 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/mg0RlqyueY3VcaevmFJxfN6Gukt8l6pSAjAC4lCCEZnkDolpA/out-0.png
+2025-06-02 14:43:48 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:43:48 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:43:49 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:44:11 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Девушка в нижнем белье' (ru) -> 'Lingerie'
+2025-06-02 14:44:11 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Minimalist Clear v1 для пользователя 7945261060 (score: 0.754)
+2025-06-02 14:44:12 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Minimalist Clear v1: Woman in lingerie
+2025-06-02 14:44:12 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='Woman in lingerie, Natural pose, neutral expression, detailed textures, photorealistic detailed rend...', style=realistic
+2025-06-02 14:44:20 | ERROR    | image_generation_service.service:_generate_sd_sticker_enhanced:491 | Ошибка при генерации через Replicate: NSFW content detected. Try running it again, or try a different prompt.
+2025-06-02 14:44:20 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:44:21 | INFO     | stt_service.service:_transcribe_whisper:114 | Распознаем аудио: /Users/cooldom/VoiceSticker/storage/voice_1268409200_AwACAgIAAxkBAAIBPGg9jouUItztK1h1LOPCDOF_C241AAKQcwACCDvpSbB9J2hNlIFGNgQ.ogg
+2025-06-02 14:44:21 | INFO     | stt_service.service:_convert_to_wav:179 | Конвертируем /Users/cooldom/VoiceSticker/storage/voice_1268409200_AwACAgIAAxkBAAIBPGg9jouUItztK1h1LOPCDOF_C241AAKQcwACCDvpSbB9J2hNlIFGNgQ.ogg в WAV
+2025-06-02 14:44:21 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:44:23 | INFO     | stt_service.service:_transcribe_whisper:154 | Распознан текст: Человеческая многоношка пожирает людей.
+2025-06-02 14:44:37 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Человеческая многоношка пожирает людей.' (ru) -> 'The human multinosa devour people.'
+2025-06-02 14:44:37 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Emotion-Centric v1 для пользователя 1268409200 (score: 0.568)
+2025-06-02 14:44:41 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Emotion-Centric v1: Человеческая многоножка пожирает людей (A human centipede devouring people)
+2025-06-02 14:44:41 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='Человеческая многоножка пожирает людей (A human centipede devouring people), The human centipede, de...', style=watercolor
+2025-06-02 14:44:46 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/fXa641zKJVQEBCm6mpfqXBxEq1nWWZXgdfz6UAynMYmdFolpA/out-0.png
+2025-06-02 14:44:47 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:44:47 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:44:49 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:45:44 | INFO     | prompt_optimization.optimizer:record_result:207 | Результат записан: template=emotion_focused_v1, rating=5, success_rate=100.00%
+2025-06-02 14:45:44 | INFO     | image_generation_service.service:record_feedback:690 | A/B test result recorded: template=emotion_focused_v1, rating=5
+2025-06-02 14:45:44 | INFO     | image_generation_service.service:record_feedback:692 | Feedback recorded: rating=5, style=watercolor, template=Emotion-Centric v1
+2025-06-02 14:46:14 | INFO     | stt_service.service:_transcribe_whisper:114 | Распознаем аудио: /Users/cooldom/VoiceSticker/storage/voice_1268409200_AwACAgIAAxkBAAIBRGg9jwbT_BhsXxHxUi5ROlkh14aYAAKdcwACCDvpSWipgiGUtMI3NgQ.ogg
+2025-06-02 14:46:14 | INFO     | stt_service.service:_convert_to_wav:179 | Конвертируем /Users/cooldom/VoiceSticker/storage/voice_1268409200_AwACAgIAAxkBAAIBRGg9jwbT_BhsXxHxUi5ROlkh14aYAAKdcwACCDvpSWipgiGUtMI3NgQ.ogg в WAV
+2025-06-02 14:46:15 | INFO     | stt_service.service:_transcribe_whisper:154 | Распознан текст: Заграющая корова под пальмой.
+2025-06-02 14:46:32 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Заграющая корова под пальмой.' (ru) -> 'Firing cow under a palm tree.'
+2025-06-02 14:46:32 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Minimalist Clear v1 для пользователя 1268409200 (score: 0.993)
+2025-06-02 14:46:33 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Minimalist Clear v1: Cow firing weapon under palm tree
+2025-06-02 14:46:33 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='Cow firing weapon under palm tree, Brown cow, pistol, green palm, sunny day, photorealistic detailed...', style=realistic
+2025-06-02 14:46:39 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/o4qaezD69sVPHSeWaTvc1XnoiqE6ekFTHsL6WHEzA1BfRQLTB/out-0.png
+2025-06-02 14:46:40 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:46:40 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:46:42 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:48:44 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 14:48:53 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Девушка играет в пляжный волейбол' (ru) -> 'Girl plays beach volleyball'
+2025-06-02 14:48:53 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Emotion-Centric v1 для пользователя 7945261060 (score: 0.902)
+2025-06-02 14:48:56 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Emotion-Centric v1: Девушка играет в пляжный волейбол (Girl playing beach volleyball)
+2025-06-02 14:48:56 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='Девушка играет в пляжный волейбол (Girl playing beach volleyball), A young woman with sun-kissed ski...', style=realistic
+2025-06-02 14:49:24 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/htep7RdPc9TbeUyt1ZMawHuWcTUNBuXimQ3Bn6cTiEqEH0yUA/out-0.png
+2025-06-02 14:49:25 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 14:49:26 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:49:29 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 14:49:54 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 14:50:21 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Девушка танцует стрип' (ru) -> 'The girl is dancing a strip'
+2025-06-02 14:50:21 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Emotion-Centric v1 для пользователя 7945261060 (score: 0.976)
+2025-06-02 14:50:24 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Emotion-Centric v1: Девушка танцует стрип (A girl dancing a striptease)
+2025-06-02 14:50:24 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='Девушка танцует стрип (A girl dancing a striptease), A young woman with realistic proportions and hi...', style=realistic
+2025-06-02 14:50:33 | ERROR    | image_generation_service.service:_generate_sd_sticker_enhanced:491 | Ошибка при генерации через Replicate: NSFW content detected. Try running it again, or try a different prompt.
+2025-06-02 14:50:33 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 14:50:33 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 16:05:33 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 16:05:33 | INFO     | __main__:on_shutdown:45 | Бот остановлен
+2025-06-02 16:05:39 | INFO     | db_manager.manager:__init__:18 | Инициализация базы данных: /Users/cooldom/VoiceSticker/bot_database.db
+2025-06-02 16:05:39 | INFO     | image_generation_service.service:__init__:89 | Инициализация сервиса генерации изображений (MVP mode: False, A/B testing: True)
+2025-06-02 16:05:40 | INFO     | stt_service.service:__init__:29 | Инициализация STT сервиса (MVP mode: False)
+2025-06-02 16:05:40 | INFO     | __main__:main:88 | Запуск в режиме polling (разработка)
+2025-06-02 16:05:41 | INFO     | __main__:on_startup:25 | Запуск бота VoiceSticker...
+2025-06-02 16:05:41 | INFO     | __main__:on_startup:28 | Инициализация базы данных...
+2025-06-02 16:05:41 | INFO     | db_manager.manager:init_db:100 | База данных успешно инициализирована
+2025-06-02 16:05:41 | INFO     | __main__:on_startup:32 | Инициализация сервисов...
+2025-06-02 16:05:41 | INFO     | image_generation_service.service:initialize:98 | Инициализация сервиса генерации через Replicate API
+2025-06-02 16:05:41 | INFO     | stt_service.service:initialize:38 | Загружаем Whisper модель 'base'...
+2025-06-02 16:05:41 | INFO     | stt_service.service:initialize:47 | Whisper модель успешно загружена!
+2025-06-02 16:05:41 | INFO     | __main__:on_startup:36 | ✅ Бот успешно запущен!
+2025-06-02 16:21:05 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 16:21:05 | INFO     | __main__:on_shutdown:45 | Бот остановлен
+2025-06-02 16:21:09 | INFO     | db_manager.manager:__init__:18 | Инициализация базы данных: /Users/cooldom/VoiceSticker/bot_database.db
+2025-06-02 16:21:10 | INFO     | image_generation_service.service:__init__:89 | Инициализация сервиса генерации изображений (MVP mode: False, A/B testing: True)
+2025-06-02 16:21:11 | INFO     | stt_service.service:__init__:29 | Инициализация STT сервиса (MVP mode: False)
+2025-06-02 16:21:11 | INFO     | __main__:main:88 | Запуск в режиме polling (разработка)
+2025-06-02 16:21:11 | INFO     | __main__:on_startup:25 | Запуск бота VoiceSticker...
+2025-06-02 16:21:11 | INFO     | __main__:on_startup:28 | Инициализация базы данных...
+2025-06-02 16:21:11 | INFO     | db_manager.manager:init_db:100 | База данных успешно инициализирована
+2025-06-02 16:21:11 | INFO     | __main__:on_startup:32 | Инициализация сервисов...
+2025-06-02 16:21:11 | INFO     | image_generation_service.service:initialize:98 | Инициализация сервиса генерации через Replicate API
+2025-06-02 16:21:11 | INFO     | stt_service.service:initialize:38 | Загружаем Whisper модель 'base'...
+2025-06-02 16:21:12 | INFO     | stt_service.service:initialize:47 | Whisper модель успешно загружена!
+2025-06-02 16:21:12 | INFO     | __main__:on_startup:36 | ✅ Бот успешно запущен!
+2025-06-02 16:21:18 | INFO     | logger:log_user_action:69 | User action: start_command
+2025-06-02 16:21:31 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Какашка' (ru) -> 'Kakash'
+2025-06-02 16:21:31 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Precise Description v1 для пользователя 7945261060 (score: 0.947)
+2025-06-02 16:21:33 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Precise Description v1: Какашка (a single piece of poop)
+2025-06-02 16:21:33 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='Какашка (a single piece of poop), Photorealistic rendering of a single, well-formed human feces,  br...', style=realistic
+2025-06-02 16:21:43 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/lGlPoVuDTNbgGp8MWeL1GvJNZdadjeAbl0SH3n3fh7pM7qlpA/out-0.png
+2025-06-02 16:21:44 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 16:21:44 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 16:21:46 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 16:34:14 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 16:34:14 | INFO     | __main__:on_shutdown:45 | Бот остановлен
+2025-06-02 16:34:29 | INFO     | db_manager.manager:__init__:18 | Инициализация базы данных: /Users/cooldom/VoiceSticker/bot_database.db
+2025-06-02 16:34:29 | INFO     | image_generation_service.service:__init__:89 | Инициализация сервиса генерации изображений (MVP mode: False, A/B testing: True)
+2025-06-02 16:34:30 | INFO     | stt_service.service:__init__:29 | Инициализация STT сервиса (MVP mode: False)
+2025-06-02 16:34:30 | INFO     | __main__:main:88 | Запуск в режиме polling (разработка)
+2025-06-02 16:34:31 | INFO     | __main__:on_startup:25 | Запуск бота VoiceSticker...
+2025-06-02 16:34:31 | INFO     | __main__:on_startup:28 | Инициализация базы данных...
+2025-06-02 16:34:31 | INFO     | db_manager.manager:init_db:100 | База данных успешно инициализирована
+2025-06-02 16:34:31 | INFO     | __main__:on_startup:32 | Инициализация сервисов...
+2025-06-02 16:34:31 | INFO     | image_generation_service.service:initialize:98 | Инициализация сервиса генерации через Replicate API
+2025-06-02 16:34:31 | INFO     | stt_service.service:initialize:38 | Загружаем Whisper модель 'base'...
+2025-06-02 16:34:31 | INFO     | stt_service.service:initialize:47 | Whisper модель успешно загружена!
+2025-06-02 16:34:31 | INFO     | __main__:on_startup:36 | ✅ Бот успешно запущен!
+2025-06-02 16:34:57 | INFO     | image_generation_service.service:translate_to_english:139 | Перевод: 'Енот полощит вещи' (ru) -> 'Raccoon will rinse things'
+2025-06-02 16:34:57 | INFO     | prompt_optimization.optimizer:get_test_template:173 | Выбран шаблон Emotion-Centric v1 для пользователя 7945261060 (score: 0.418)
+2025-06-02 16:35:00 | INFO     | image_generation_service.service:generate_enhanced_prompt:363 | Enhanced prompt created with template Emotion-Centric v1: Raccoon rinsing things
+2025-06-02 16:35:00 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:460 | Генерация с параметрами: prompt='Raccoon rinsing things, A chubby raccoon with oversized, expressive, bright blue eyes is happily rin...', style=cartoon
+2025-06-02 16:35:06 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:471 | Получен URL изображения: https://replicate.delivery/xezq/rBRPMQgGe4S3cacqCfwAG0HaRdUbvxvxeePvEfV4liuNRtWmC/out-0.png
+2025-06-02 16:35:07 | INFO     | image_generation_service.service:_generate_sd_sticker_enhanced:483 | Изображение успешно сгенерировано
+2025-06-02 16:35:07 | INFO     | sticker_utils.utils:process_sticker:344 | Конвертировал байты в PIL Image
+2025-06-02 16:35:08 | INFO     | logger:log_user_action:69 | User action: sticker_created
+2025-06-02 16:44:57 | INFO     | __main__:on_shutdown:41 | Остановка бота...
+2025-06-02 16:44:57 | INFO     | __main__:on_shutdown:45 | Бот остановлен

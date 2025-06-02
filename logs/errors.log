@@ -1,0 +1,38 @@
+2025-05-30 16:42:38 | ERROR    | image_generation_service.service:_generate_sd_sticker:195 | Ошибка при генерации через Replicate: ReplicateError Details:
+title: Billing required
+status: 402
+detail: You need to set up billing to run this model. Go to https://replicate.com/account/billing#billing to set it up. If you have recently set up billing, please wait a few minutes before trying again.
+2025-05-30 16:49:45 | ERROR    | image_generation_service.service:_generate_sd_sticker:195 | Ошибка при генерации через Replicate: ReplicateError Details:
+title: Billing required
+status: 402
+detail: You need to set up billing to run this model. Go to https://replicate.com/account/billing#billing to set it up. If you have recently set up billing, please wait a few minutes before trying again.
+2025-05-30 16:51:32 | ERROR    | image_generation_service.service:_generate_sd_sticker:195 | Ошибка при генерации через Replicate: Constructor parameter should be str
+2025-05-30 16:52:04 | ERROR    | image_generation_service.service:_generate_sd_sticker:195 | Ошибка при генерации через Replicate: Constructor parameter should be str
+2025-05-30 16:56:21 | ERROR    | image_generation_service.service:_generate_sd_sticker:198 | Ошибка при генерации через Replicate: NSFW content detected. Try running it again, or try a different prompt.
+2025-05-30 16:57:27 | ERROR    | image_generation_service.service:_generate_sd_sticker:198 | Ошибка при генерации через Replicate: Constructor parameter should be str
+2025-05-30 17:00:50 | ERROR    | image_generation_service.service:_generate_sd_sticker:198 | Ошибка при генерации через Replicate: Constructor parameter should be str
+2025-05-31 13:35:29 | ERROR    | image_generation_service.service:_generate_sd_sticker:198 | Ошибка при генерации через Replicate: Constructor parameter should be str
+2025-05-31 13:40:19 | ERROR    | image_generation_service.service:_generate_sd_sticker:208 | Ошибка при генерации через Replicate: Constructor parameter should be str
+2025-06-02 12:14:23 | ERROR    | image_generation_service.service:create_detailed_prompt:141 | Ошибка GPT: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-06-02 12:14:23 | ERROR    | image_generation_service.service:create_detailed_prompt:142 | Тип ошибки: APIRemovedInV1
+2025-06-02 12:21:29 | ERROR    | image_generation_service.service:create_detailed_prompt:139 | Ошибка GPT: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-06-02 12:21:29 | ERROR    | image_generation_service.service:create_detailed_prompt:140 | Тип ошибки: RateLimitError
+2025-06-02 12:35:16 | ERROR    | image_generation_service.service:create_detailed_prompt:200 | Ошибка Gemini: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-06-02 13:53:11 | ERROR    | image_generation_service.service:generate_enhanced_prompt:367 | Ошибка создания enhanced prompt: b <= 0
+2025-06-02 13:53:18 | ERROR    | sticker_utils.utils:process_sticker:352 | Ошибка при обработке стикера: 'bytes' object has no attribute 'mode'
+2025-06-02 13:53:18 | ERROR    | bot_handlers:cb_select_background:482 | Ошибка при создании стикера: 'bytes' object has no attribute 'mode'
+2025-06-02 13:53:18 | ERROR    | logger:log_error:121 | Error occurred: AttributeError
+2025-06-02 14:09:59 | ERROR    | logger:async_wrapper:83 | Error in save_sticker: 'DatabaseManager' object has no attribute 'execute'
+2025-06-02 14:09:59 | ERROR    | bot_handlers:cb_select_background:484 | Ошибка при создании стикера: 'DatabaseManager' object has no attribute 'execute'
+2025-06-02 14:09:59 | ERROR    | logger:log_error:121 | Error occurred: AttributeError
+2025-06-02 14:44:20 | ERROR    | image_generation_service.service:_generate_sd_sticker_enhanced:491 | Ошибка при генерации через Replicate: NSFW content detected. Try running it again, or try a different prompt.
+2025-06-02 14:50:33 | ERROR    | image_generation_service.service:_generate_sd_sticker_enhanced:491 | Ошибка при генерации через Replicate: NSFW content detected. Try running it again, or try a different prompt.
