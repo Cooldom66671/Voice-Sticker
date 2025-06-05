@@ -30,7 +30,7 @@ async def on_startup():
 
     # Инициализация сервисов
     logger.info("Инициализация сервисов...")
-    await image_service.initialize()
+    # await image_service.initialize()  # Эту строку нужно удалить или закомментировать
     await stt_service.initialize()
 
     logger.info("✅ Бот успешно запущен!")

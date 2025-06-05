@@ -1,6 +1,7 @@
 # Core dependencies
 aiogram==3.7.0
 aiohttp==3.9.5
+aiofiles==23.2.1
 python-dotenv==1.0.1
 
 # Database
@@ -25,6 +26,8 @@ deep-translator==1.11.4    # Для автоматического перево�
 openai-whisper==20231117   # Для распознавания речи
 pydub==0.25.1             # Для обработки аудио файлов
 ffmpeg-python==0.2.0      # Для конвертации аудио
+
+aiofiles==23.2.1
 
 # Development dependencies (optional)
 # pytest==8.2.0

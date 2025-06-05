@@ -36,3 +36,47 @@ A detailed migration guide is available here: https://github.com/openai/openai-p
 2025-06-02 14:09:59 | ERROR    | logger:log_error:121 | Error occurred: AttributeError
 2025-06-02 14:44:20 | ERROR    | image_generation_service.service:_generate_sd_sticker_enhanced:491 | Ошибка при генерации через Replicate: NSFW content detected. Try running it again, or try a different prompt.
 2025-06-02 14:50:33 | ERROR    | image_generation_service.service:_generate_sd_sticker_enhanced:491 | Ошибка при генерации через Replicate: NSFW content detected. Try running it again, or try a different prompt.
+2025-06-02 17:43:14 | ERROR    | telegram_sticker_manager:create_sticker_pack:135 | Error creating sticker pack: 3 validation errors for InputSticker
+sticker.is-instance[InputFile]
+  Input should be an instance of InputFile [type=is_instance_of, input_value=<_io.BytesIO object at 0x13f3f8c20>, input_type=BytesIO]
+    For further information visit https://errors.pydantic.dev/2.7/v/is_instance_of
+sticker.str
+  Input should be a valid string [type=string_type, input_value=<_io.BytesIO object at 0x13f3f8c20>, input_type=BytesIO]
+    For further information visit https://errors.pydantic.dev/2.7/v/string_type
+format
+  Field required [type=missing, input_value={'sticker': <_io.BytesIO ... 'emoji_list': ['🐱']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2025-06-02 17:43:14 | ERROR    | bot_handlers:cb_add_to_sticker_pack:1026 | Error processing sticker: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "_io.bytesio" at byte offset 170
+2025-06-02 17:43:14 | ERROR    | bot_handlers:cb_add_to_sticker_pack:1031 | Error in add_to_sticker_pack: Telegram server says - Bad Request: message to delete not found
+2025-06-03 13:30:04 | ERROR    | __main__:main:101 | Критическая ошибка: 'ImageGenerationService' object has no attribute 'initialize'
+2025-06-03 13:30:04 | ERROR    | __main__:<module>:120 | Неожиданная ошибка: 'ImageGenerationService' object has no attribute 'initialize'
+2025-06-03 13:32:40 | ERROR    | image_generation_service.service:enhance_prompt:217 | Error enhancing prompt with Gemini: object GenerateContentResponse can't be used in 'await' expression
+2025-06-03 13:36:51 | ERROR    | image_generation_service.service:enhance_prompt:217 | Error enhancing prompt with Gemini: object GenerateContentResponse can't be used in 'await' expression
+2025-06-03 14:36:04 | ERROR    | logger:async_wrapper:83 | Error in save_sticker: DatabaseManager.save_sticker() got an unexpected keyword argument 'background'
+2025-06-03 14:36:04 | ERROR    | bot_handlers:cb_select_style:753 | Error in style selection: DatabaseManager.save_sticker() got an unexpected keyword argument 'background'
+2025-06-03 16:05:56 | ERROR    | image_generation_service.service:_enhance_with_gemini:216 | Gemini enhancement error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-06-03 16:06:01 | ERROR    | bot_handlers:cb_select_style:752 | Error in style selection: object NoneType can't be used in 'await' expression
+2025-06-03 16:53:39 | ERROR    | bot_handlers:cb_select_style:761 | Error in style selection: object NoneType can't be used in 'await' expression
+2025-06-03 16:54:06 | ERROR    | bot_handlers:cb_select_style:761 | Error in style selection: object NoneType can't be used in 'await' expression
+2025-06-03 17:04:56 | ERROR    | bot_handlers:cb_add_to_sticker_pack:905 | Error processing sticker: Telegram server says - Bad Request: message can't be edited
+2025-06-04 13:37:11 | ERROR    | image_generation_service.service:_enhance_with_gemini:216 | Gemini enhancement error: 400 User location is not supported for the API use.
+2025-06-04 16:04:35 | ERROR    | __main__:main:101 | Критическая ошибка: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connection reset by peer]
+2025-06-04 16:04:35 | ERROR    | __main__:<module>:120 | Неожиданная ошибка: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connection reset by peer]
+2025-06-04 16:51:59 | ERROR    | bot_handlers:generate_final_sticker:846 | Error generating sticker: Telegram server says - Bad Request: message can't be edited
+2025-06-04 16:52:59 | ERROR    | bot_handlers:generate_final_sticker:846 | Error generating sticker: Telegram server says - Bad Request: message can't be edited
+2025-06-04 16:58:40 | ERROR    | bot_handlers:generate_final_sticker:848 | Error generating sticker: Telegram server says - Bad Request: message can't be edited
+2025-06-04 17:03:02 | ERROR    | bot_handlers:generate_final_sticker:848 | Error generating sticker: Telegram server says - Bad Request: message can't be edited
+2025-06-04 17:03:10 | ERROR    | telegram_sticker_manager:add_sticker_to_pack:246 | Telegram error adding sticker: Telegram server says - Bad Request: STICKERSET_INVALID
+2025-06-04 17:20:41 | ERROR    | bot_handlers:generate_final_sticker:752 | Error generating sticker: Telegram server says - Bad Request: message can't be edited
+2025-06-04 17:45:11 | ERROR    | telegram_sticker_manager:add_sticker_to_pack:246 | Telegram error adding sticker: Telegram server says - Bad Request: STICKERSET_INVALID
+2025-06-04 17:45:13 | ERROR    | telegram_sticker_manager:add_sticker_to_pack:246 | Telegram error adding sticker: Telegram server says - Bad Request: STICKERSET_INVALID
+2025-06-04 17:46:06 | ERROR    | telegram_sticker_manager:add_sticker_to_pack:246 | Telegram error adding sticker: Telegram server says - Bad Request: STICKERSET_INVALID
+2025-06-04 17:46:07 | ERROR    | telegram_sticker_manager:add_sticker_to_pack:246 | Telegram error adding sticker: Telegram server says - Bad Request: STICKERSET_INVALID
+2025-06-04 18:18:19 | ERROR    | bot_handlers:generate_final_sticker:1475 | Error auto-adding to pack: module 'db_manager' has no attribute 'get_user_packs'
+2025-06-04 18:18:26 | ERROR    | bot_handlers:cb_add_to_sticker_pack:2075 | Error in add_to_sticker_pack: module 'db_manager' has no attribute 'get_user_packs'
+2025-06-04 18:26:43 | ERROR    | bot_handlers:generate_final_sticker:1485 | Error auto-adding to pack: module 'db_manager' has no attribute 'get_user_packs'
+2025-06-04 18:26:49 | ERROR    | bot_handlers:cb_add_to_sticker_pack:2069 | Error in add_to_sticker_pack: module 'db_manager' has no attribute 'get_user_packs'
+2025-06-04 18:27:15 | ERROR    | bot_handlers:cb_add_to_sticker_pack:2069 | Error in add_to_sticker_pack: module 'db_manager' has no attribute 'get_user_packs'
+2025-06-04 18:36:37 | ERROR    | bot_handlers:cb_add_to_sticker_pack:2069 | Error in add_to_sticker_pack: module 'db_manager' has no attribute 'get_user_packs'
+2025-06-04 18:37:16 | ERROR    | bot_handlers:generate_final_sticker:1485 | Error auto-adding to pack: module 'db_manager' has no attribute 'get_user_packs'
+2025-06-04 18:37:34 | ERROR    | bot_handlers:cb_add_to_sticker_pack:2069 | Error in add_to_sticker_pack: module 'db_manager' has no attribute 'get_user_packs'
